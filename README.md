@@ -1,6 +1,11 @@
 # Horiseon website semantic refactoring
 
-[SEE THE DEPLOYED APPLICATION HERE](https://dishdesigner.github.io/osu01-code-refactor)
+## Links
+
+* [SEE THE DEPLOYED APPLICATION HERE](https://dishdesigner.github.io/osu01-code-refactor)
+* [Read the accessibility text analysis report here](accessibility-testing\text-analysis\text-analysis-report.md)
+* [DROPBOX: Listen to the audio of a screen reader (NVAccess) reading the existing webpage before refactoring](https://www.dropbox.com/s/l1e7ijhnzhjp4iv/01-ScreenReader-BeforeRefactor.mp3?dl=0)
+* [DROPBOX: Listen to the audio of a screen reader (NVAccess) reading the refactored webpage](https://www.dropbox.com/s/o9pcatvkn3tb9da/02-ScreenReader-AfterRefactor.mp3?dl=0)
 
 ---
 
@@ -12,6 +17,15 @@
 * Nothing was used in the project code beyond pure HTML 5 and CSS 3. Photoshop was used to reduce the placed image resolutions to optimize page download size.
 * The challenge here was to refactor the markup without making any functional changes to the page whatsoever.
 * The next step in the evolution of the Horiseon website would be to address its lack of responsiveness to varying screen sizes.
+
+---
+
+## Notes about Alt tags
+
+* The acceptance criteria of this assignment indicated that Alt tags needed to be added to images on the web page to improve the page accessibility. Because they were stated criteria, the Alt tags were added.
+* However, testing was also carried out using screen reading software to really understand how a disabled person might listen to the page being read out loud. You can hear the audio recordings before and after here.
+* <mark>It is recommended, based on that audio, that ALL THE ALT TAGS ON THE PAGE BE REMOVED AND LEFT BLANK!</mark> (alt="")
+* Screen readers actually do a better job of reading the web page content cleanly in this case because all of the images are merely decorative and do nothing to further clarify the text content. They only serve to trip the screen reader up while moving in and out of figures in a seemingly random order.
 
 ---
 
