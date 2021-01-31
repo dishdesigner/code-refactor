@@ -2,7 +2,7 @@
 GENERAL PAGE STYLES
 ***********************************/
 :root {
-    --gillsans: GillSansRegular, "Gill Sans MT", "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
+    --gillsans: 'Gill Sans Nova', GillSansRegular, 'Gill Sans MT Semi Light', 'Gill Sans MT', 'Gill Sans', 'Humanist 521', 'Humanist521', 'Trebuchet MS', Calibri, sans-serif;
     --trebuchet: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --color-links: white;
     --color-bodybackground: #d9dcd6;
@@ -29,7 +29,7 @@ p {
     font-size: 16px;
 }
 
-a:link, a:visited, a:hover, a:active {
+a {
     color: var(--color-links);
     text-decoration: none;
 }
@@ -91,17 +91,16 @@ main {
     margin-left: 20px;
 }
 
-figure.hero {
+.hero {
     height: 800px;
     width: 100%;
-    object-fit: contain;
     overflow: hidden;
-    position: relative;
-    /* top:30%
-    -webkit-transform: translateY(-30%);
-    -ms-transform: translateY(-30%);
-    transform: translateY(-30%); */
     margin-bottom: 25px;
+}
+
+.hero figure img {
+    position: relative;
+    bottom: 12em;
 }
 
 hr {
