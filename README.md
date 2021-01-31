@@ -3,7 +3,7 @@
 ## Links
 
 * [SEE THE DEPLOYED APPLICATION HERE](https://dishdesigner.github.io/osu01-code-refactor)
-* [Read the accessibility text analysis report here](accessibility-testing\text-analysis\text-analysis-report.md)
+* [Read the accessibility text analysis report here](https://dishdesigner.github.io/osu01-code-refactor/accessibility-testing/text-analysis/text-analysis-report.md)
 * [DROPBOX: Listen to the audio of a screen reader (NVAccess) reading the existing webpage before refactoring](https://www.dropbox.com/s/l1e7ijhnzhjp4iv/01-ScreenReader-BeforeRefactor.mp3?dl=0)
 * [DROPBOX: Listen to the audio of a screen reader (NVAccess) reading the refactored webpage](https://www.dropbox.com/s/o9pcatvkn3tb9da/02-ScreenReader-AfterRefactor.mp3?dl=0)
 
